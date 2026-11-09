@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="O'Ouro Barbearia, cortes e barba de precisão num ambiente premium.">
+  <title>O'Ouro Barbearia | Lisboa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style copy.css">
+  <script src="js/jscopy.js" defer></script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Saltar para o conteúdo</a>
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <!-- ============ CABEÇALHO ============ -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="logo" href="#inicio" aria-label="O'Ouro Barbearia, início">
+        <span class="logo-mark" aria-hidden="true">O</span>
+        <span class="logo-text">
+          <b>O'Ouro</b>
+          <small>Barbearia</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Principal">
+        <a href="#inicio">Início</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contacto">Contacto</a>
+        <a class="nav-cta" href="#contacto">Marcar horário</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ SLIDER (HERO) ============ -->
+    <section class="hero" id="inicio" data-slider aria-roledescription="carrossel" aria-label="Destaques da barbearia">
+
+      <div class="slides">
+
+        <article class="slide is-active" aria-hidden="false">
+          <div class="slide-bg">
+            <img src="img/barbearia-salao.jpg" alt="Salão da O'Ouro com cadeiras douradas, espelhos emoldurados e lustres de cristal">
+          </div>
+          <div class="container slide-content">
+            <p class="eyebrow fade" style="--delay:.2s">Barbearia premium · Lisboa</p>
+            <h1 class="slide-title">Onde o tempo <em>abranda.</em></h1>
+            <p class="slide-text fade" style="--delay:1.5s">Um espaço pensado para quem valoriza cada detalhe, do corte ao último toque de perfume.</p>
+            <div class="actions fade" style="--delay:1.8s">
+              <a class="btn" href="#contacto">Marcar horário ↗</a>
+              <a class="btn-ghost" href="#servicos">Ver serviços</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="slide" aria-hidden="true">
+          <div class="slide-bg">
+            <img src="img/barbearia-receção.jpg" alt="Receção da O'Ouro com balcão de madeira, relógios antigos e sofás de couro">
+          </div>
+          <div class="container slide-content">
+            <p class="eyebrow fade" style="--delay:.2s">A sua chegada</p>
+            <h2 class="slide-title">Bem-vindo à sua <em>cadeira.</em></h2>
+            <p class="slide-text fade" style="--delay:1.5s">Recebemos cada cliente como convidado, com um café, uma conversa tranquila e tempo para respirar.</p>
+            <div class="actions fade" style="--delay:1.8s">
+              <a class="btn" href="#contacto">Marcar horário ↗</a>
+              <a class="btn-ghost" href="#sobre">Conhecer a casa</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="slide" aria-hidden="true">
+          <div class="slide-bg">
+            <img src="img/barbearia-corte.jpg" alt="Barbeiro a cortar o cabelo a um cliente com tesoura e pente">
+          </div>
+          <div class="container slide-content">
+            <p class="eyebrow fade" style="--delay:.2s">O ofício</p>
+            <h2 class="slide-title">Precisão que <em>se vê.</em></h2>
+            <p class="slide-text fade" style="--delay:1.5s">Mestres barbeiros, tesouras de aço e acabamento à navalha. Cada linha é desenhada para o seu rosto.</p>
+            <div class="actions fade" style="--delay:1.8s">
+              <a class="btn" href="#contacto">Marcar horário ↗</a>
+              <a class="btn-ghost" href="#servicos">Ver serviços</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="slide" aria-hidden="true">
+          <div class="slide-bg">
+            <img src="img/barbearia-produtos.jpg" alt="Tesouras, navalha, pincel de barba e produtos de barba da O'Ouro">
+          </div>
+          <div class="container slide-content">
+            <p class="eyebrow fade" style="--delay:.2s">Linha própria</p>
+            <h2 class="slide-title">Cuidado que <em>fica.</em></h2>
+            <p class="slide-text fade" style="--delay:1.5s">Pré-barba, após-barba e ferramentas de assinatura, para prolongar a experiência em casa.</p>
+            <div class="actions fade" style="--delay:1.8s">
+              <a class="btn" href="#contacto">Encomendar ↗</a>
+              <a class="btn-ghost" href="#sobre">A nossa linha</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="container slider-controls">
+        <div class="thumbs" role="group" aria-label="Escolher destaque">
+          <button class="thumb is-active" type="button" data-go="0"><span>01</span>Salão</button>
+          <button class="thumb" type="button" data-go="1"><span>02</span>Receção</button>
+          <button class="thumb" type="button" data-go="2"><span>03</span>Corte</button>
+          <button class="thumb" type="button" data-go="3"><span>04</span>Produtos</button>
+        </div>
+
+        <div class="controls-right">
+          <div class="counter" aria-hidden="true">
+            <span class="current">01</span>
+            <span class="bar"><i></i></span>
+            <span class="total">04</span>
+          </div>
+          <div class="arrows">
+            <button class="prev" type="button" aria-label="Destaque anterior">←</button>
+            <button class="next" type="button" aria-label="Destaque seguinte">→</button>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ============ SERVIÇOS ============ -->
+    <section class="section services" id="servicos">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">Serviços</p>
+            <h2>A arte de <em>cada detalhe.</em></h2>
+          </div>
+          <p>Quatro experiências pensadas para diferentes momentos, sempre com tempo e atenção.</p>
+        </div>
+
+        <ul class="service-list">
+          <li class="service reveal">
+            <span class="service-num">01</span>
+            <div>
+              <h3>Corte clássico</h3>
+              <p>Tesoura e máquina, com acabamento à navalha e finalização suave.</p>
+            </div>
+            <span class="service-price">25 €</span>
+          </li>
+          <li class="service reveal" style="--d:1">
+            <span class="service-num">02</span>
+            <div>
+              <h3>Barba de precisão</h3>
+              <p>Desenho, aparagem e toalha quente para uma linha limpa e confortável.</p>
+            </div>
+            <span class="service-price">18 €</span>
+          </li>
+          <li class="service reveal" style="--d:2">
+            <span class="service-num">03</span>
+            <div>
+              <h3>Corte & barba</h3>
+              <p>A experiência completa, do primeiro gesto ao último toque de perfume.</p>
+            </div>
+            <span class="service-price">40 €</span>
+          </li>
+          <li class="service reveal" style="--d:3">
+            <span class="service-num">04</span>
+            <div>
+              <h3>Ritual O'Ouro</h3>
+              <p>Vapor, massagem facial e óleo de assinatura, para quem merece mais.</p>
+            </div>
+            <span class="service-price">55 €</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ SOBRE ============ -->
+    <section class="section about" id="sobre">
+      <div class="container about-grid">
+        <div class="about-copy reveal">
+          <p class="eyebrow">A nossa casa</p>
+          <blockquote class="quote">Um bom corte não se pede, <em>sente-se.</em></blockquote>
+          <p>A O'Ouro nasceu da vontade de devolver à barbearia o que ela tem de mais bonito: o ritual, a conversa e o cuidado com quem chega. Cada cadeira é ocupada por um cliente de cada vez.</p>
+        </div>
+
+        <dl class="stat-list reveal" style="--d:1">
+          <div><dt><strong>15+</strong></dt><dd><span>anos de ofício</span></dd></div>
+          <div><dt><strong>04</strong></dt><dd><span>mestres barbeiros</span></dd></div>
+          <div><dt><strong>1</strong></dt><dd><span>cliente de cada vez</span></dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ============ CHAMADA ============ -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-band reveal">
+          <h2>Reserve a sua <em>cadeira.</em></h2>
+          <a class="btn" href="#contacto">Marcar horário ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACTO ============ -->
+    <section class="section contact" id="contacto">
+      <div class="container contact-grid">
+        <div class="reveal">
+          <p class="eyebrow">Visite-nos</p>
+          <h2>Marque o seu <em>momento.</em></h2>
+          <p class="address">Rua do Ouro, 24 · Lisboa</p>
+          <a class="text-link" href="mailto:reservas@oouro.pt">reservas@oouro.pt ↗</a>
+        </div>
+
+        <div class="hours reveal" style="--d:1">
+          <h3>Horário</h3>
+          <ul>
+            <li><span>Segunda a sexta</span><span>10:00 — 20:00</span></li>
+            <li><span>Sábado</span><span>09:00 — 19:00</span></li>
+            <li><span>Domingo</span><span>Encerrado</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ RODAPÉ ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#inicio">
+        <span class="logo-mark" aria-hidden="true">O</span>
+        <span class="logo-text">
+          <b>O'Ouro</b>
+          <small>Barbearia</small>
+        </span>
+      </a>
+      <p>Cada corte é uma assinatura.</p>
+      <small>© 2026 O'Ouro Barbearia</small>
+    </div>
+  </footer>
+
+</body>
+</html>
